@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 4.0rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 10px;
+    color: #000000;
+    display: block;
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 1rem;
+    padding: 5px 0;
+    background: #f1b5ef;
+    border-radius: 1rem;
+}
+
+img {
+    display: block;
+    box-align: center;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+}
+
+.steps-list {
+    font-family: 'Otomanopee One', sans-serif;
+    counter-reset: mw-counter;
+    list-style: none;
+    margin: 4rem 0 10rem;
+    padding: 0;
+}
+
+.steps-list li {
+    background: rgb(247 196 228);
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    counter-increment: mw-counter;
+    font-size: 1.5rem;
+    margin: 0 0 1.5rem 1em;
+    padding: 10px 15px 10px 35px;
+    position: relative;
+}
+
+.btn-group-lg {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin: 20px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.btn {
+    background-color: #f1b5ef;
+}
+
+li::before {
+    background: rgb(247 196 228);
+    border-radius: 40px;
+    box-shadow: 0 0 3px rgb(0 0 0 / 40%), 0 0 0 5px #000000, 5px 0 2px rgb(0 0 0 / 60%);
+    color: rgb(0, 0, 0);
+    content: counter(mw-counter);
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+    left: -1.2em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+}
+
+.container-2 {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-color: #f1b5ef;
+    border-radius: 0.5rem;
+}
+
+h2 {
+    color: #52646d;
+    display: block;
+    font-size: 2.0rem;
+    letter-spacing: 2px;
+    margin: 10px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+img {
+    height: auto;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.endpara {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.paragraph {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background-color: #f1b5ef;
+    margin-top: 1em;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}

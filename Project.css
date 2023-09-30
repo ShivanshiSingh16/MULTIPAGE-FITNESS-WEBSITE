@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #bfe1fa;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.btn-group-lg {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin: 20px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.btn {
+    background-color: #bfe1fa;
+}
+
+footer .container-fluid {
+    padding: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    background-color: #bfe1fa;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    font-family: 'Otomanopee One', sans-serif;
+}
